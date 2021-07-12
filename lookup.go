@@ -3,9 +3,9 @@ package ident
 import (
 	"errors"
 
-	"code.google.com/p/rog-go/exp/go/ast"
-	"code.google.com/p/rog-go/exp/go/parser"
-	"code.google.com/p/rog-go/exp/go/types"
+	"github.com/warrior21st/rog-go/exp/go/ast"
+	"github.com/warrior21st/rog-go/exp/go/parser"
+	"github.com/warrior21st/rog-go/exp/go/types"
 )
 
 func lookup(filepath string, offset int) (Definition, error) {
